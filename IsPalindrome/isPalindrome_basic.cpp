@@ -3,7 +3,7 @@
 class Solution {
 public:
     bool isPalindrome(int x) {
-        if(x < 0 || (x!=0 && x % 10 == 0)){ //Valida se 
+        if(x < 0 || (x!=0 && x % 10 == 0)){ //Valida se o valor é palindromo verificando se é maior e diferente de zero e o módulo de x por 10 precisa ser igual a zero
             return false;
         }
         int div = 0;
